@@ -15,8 +15,8 @@ function quickSort(arr){
             right.push(arr[i])
         }
     }
-    return quickSort(left).concat([pivot],quickSort(right));   
+    return quickSort(left).concat([pivot],quickSort(right));   //左右递归调用quickSort,并将基准数插入之间}
 }
 var arr = [2,7,4,5,3,8,1,9,6];
-console.log('排序前数组：' , arr)
-console.log('排序后数组：' ,quickSort(arr))
+console.log('排序前数组：' , arr);
+console.log('排序后数组：' ,quickSort(arr));
