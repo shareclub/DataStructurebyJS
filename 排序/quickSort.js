@@ -1,4 +1,4 @@
-
+//原理：确定一个基准数，比基准数小的元素放左边，比基准数大的元素放右边
 
 function quickSort(arr){
     if(arr.length < 1){    //数组长度小于1时返回
